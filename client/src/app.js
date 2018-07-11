@@ -31,8 +31,10 @@ class App extends Component {
 
                 
 
-                <Route exact path='/' render={
-                    if (!token) {() => <Redirect to='/login' />}
+                <Route exact path='/' render={() => {
+                    if (!token) {return( <Redirect to='/login' />)}
+
+                }
                 } />
 
             </React.Fragment>
