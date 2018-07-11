@@ -1,0 +1,62 @@
+.form {
+    background: #253a3f;
+    padding: 20px;
+    border-radius: 3px; 
+    width: 300px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+.form form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+}
+
+input {
+    margin-bottom: 30px;
+    padding: 10px;
+    border: none;
+    
+}
+
+form p span {
+    color: red;
+}
+
+label span {
+    color: red;
+}
+
+label {
+    color: white;
+}
+
+.submit-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+form p {
+    /* margin: 0; */
+    text-decoration: underline;
+    color: white;
+    /* vertical-align: bottom; */
+}
+
+form p:hover {
+    cursor: pointer;
+}
+#submit {
+    margin-top: 10px;
+    display: inline-block;
+    height: 30px;
+    border: none;
+    width: 100%;
+    border-radius: 1.5px;
+    color: black;
+    font-weight: bold;
+    background: white; 
+    cursor: pointer;  
+}
